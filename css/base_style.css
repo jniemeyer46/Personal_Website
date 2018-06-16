@@ -24,24 +24,20 @@ div.nav ul li.first-element {
 	margin-left: 15%;
 }
 
-a:link, a:visited {
+div.nav ul li a:link, div.nav ul li a:visited {
 	color: white;
 }
 
-a:hover {
+div.nav ul li a:hover {
 	color: #7409CD;
 }
 
-li.current a{
+div.nav ul li.current a{
 	color: #EE6800;
 }
 
 body {
 	background-color: black; 
-}
-
-p {
-	color: white;
 }
 
 
