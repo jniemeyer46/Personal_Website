@@ -1,3 +1,13 @@
+body div h1 {
+	text-align: center;
+	color: #EE6800;
+}
+
+body div h2 {
+	margin-left: 35px;
+	color: #EE6800;
+}
+
 p {
 	color: white;
 }

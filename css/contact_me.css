@@ -1,0 +1,5 @@
+body #body p {
+	display: block;
+	background-color: #59595A;
+	color: red;
+}
