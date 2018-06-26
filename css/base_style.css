@@ -5,23 +5,43 @@ div.nav {
 	background-image: url(../images/background.png);
 }
 
+div.nav .button1 {
+	float: left;
+
+	height: 75px;
+	width: 200px;
+
+	margin-top: 100px;
+	margin-left: 200px;
+	
+	background-color: orange;
+	border-color: purple;
+}
+
+div.nav .button2 {
+	float: right;
+
+	height: 75px;
+	width: 200px;
+
+	margin-top: 100px;
+	margin-right: 200px;
+}
+
 div.nav ul {
 	display: block;
 
-	background-color: black;
+	text-align: center;
 }
 
 div.nav ul li {
+	display: inline-block;
 	font-size: 18pt;
-	margin-top: 260px;
-	margin-left: 6%;
 
-	float: left;
+	margin: 270px 20px;
+
+
 	list-style-type: none;
-}
-
-div.nav ul li.first-element {
-	margin-left: 15%;
 }
 
 div.nav ul li a:link, div.nav ul li a:visited {
